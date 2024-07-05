@@ -15,6 +15,7 @@ public class Solution {
 
             while (low < high) {
                 int sum = nums[low] + nums[high];
+                
                 if (sum == target) {
                     List<Integer> triplet = new ArrayList<>();
                     triplet.add(nums[i]);
