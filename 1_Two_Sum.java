@@ -8,6 +8,7 @@ class Solution {
                 ans[0] = mpp.get(x);
                 ans[1] = i;
                 return ans;
+                
             }
             mpp.put(nums[i], i);
         }
