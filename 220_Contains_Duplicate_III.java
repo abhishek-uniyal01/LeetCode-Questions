@@ -5,7 +5,7 @@ class Solution {
         if (nums.length == 0 || indexDiff <= 0) {
             return false;
         }
-        
+    
         TreeSet<Long> set = new TreeSet<>();
         for (int i = 0; i < nums.length; i++) {
             Long num = (long) nums[i];
