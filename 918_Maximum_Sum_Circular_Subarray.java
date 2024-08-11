@@ -11,7 +11,7 @@ class Solution {
             arrSum += arr[i];
             tempMax += arr[i];
             tempMin += arr[i];
-            
+        
             if (tempMax > maxSum) {
                 maxSum = tempMax;
             }
