@@ -15,7 +15,6 @@ class Solution {
         }
         return true;
     }
-
     public ListNode reverse(ListNode head) {
         if (head == null || head.next == null) {
             return head;
